@@ -1,9 +1,10 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 let fs = require("fs");
 let inq = require("inquirer");
 let genMarkDown = require("./utils/generateMarkdown");
+let test = require("./utils/generateMarkdown")
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = {
   title: "What is the title of your project?",
   description: "Describe your project",
@@ -12,11 +13,8 @@ const questions = {
   contributions: "What are you contribution guidelines?",
   instructions: "What are your test instructions?",
 };
-console.log("questions.title:", questions.title);
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
   inq
     .prompt([
@@ -50,6 +48,12 @@ function init() {
         message: questions.instructions,
         name: "instructions",
       },
+      {
+        type: "list",
+        message: questions.liscense,
+        name: "liscense",
+        choices: ['MIT','Apachi']
+      },
     ])
     .then((response) => {
       fs.writeFile('README.md', genMarkDown(response), (err) =>{
@@ -62,6 +66,11 @@ function init() {
     // console.log("response:", response)
     });
 }
+
+function genLiscense(label,message,color){
+  fetch()
+}
+
 
 // Function call to initialize app
 init();
