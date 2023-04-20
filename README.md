@@ -17,7 +17,7 @@
 
   ## Instructions 
 
-  You can go to the output folder to view your created read me doc. You will need to manually include any photos or links in the read me. Those features may be added if I find this application useful in the future. 
+  You can go to the output folder to view your created read me doc. You will need to manually include any photos or deployment links in the read me. Those features may be added if I find this application useful in the future. 
 
   ## Liscense 
 
