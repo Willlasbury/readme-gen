@@ -6,9 +6,9 @@
  This application takes in a series of user generated inputs and converts them
  to a read me file. 
 
-  ## Installation Instructions 
+  ## Installation
 
-  The user will need node to install packages from the package.json. Currently only inquirer 8.2.4 is required
+  The user will need node to install packages. Only dependency is inquirer 8.2.4
 
   ## Usage Information 
 
