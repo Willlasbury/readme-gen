@@ -1,10 +1,8 @@
-// Include packages needed for this application
 let fs = require("fs");
 let inq = require("inquirer");
 let genMarkDown = require("./utils/generateMarkdown");
-let test = require("./utils/generateMarkdown")
 
-// Create an array of questions for user input
+// Array of questions for user input
 const questions = {
   title: "What is the title of your project?",
   description: "Describe your project.",
@@ -14,7 +12,7 @@ const questions = {
   instructions: "What are your test instructions?",
 };
 
-// Create a function to initialize app
+// prompt user with questions and caputre inputs
 function init() {
   inq
     .prompt([
@@ -52,25 +50,17 @@ function init() {
         type: "list",
         message: questions.liscense,
         name: "liscense",
-        choices: ['MIT','Apachi']
+        choices: ["MIT", "Apachi"],
       },
     ])
     .then((response) => {
-      fs.writeFile('./output/README.md', genMarkDown(response), (err) =>{
-        if (err){
-            console.log(err);
-        } else {
-            console.log('Success');
+      fs.writeFile("./output/README.md", genMarkDown(response), (err) => {
+        if (err) {
+          throw err;
         }
-      })
-    // console.log("response:", response)
+      });
     });
 }
-
-function genLiscense(label,message,color){
-  fetch()
-}
-
 
 // Function call to initialize app
 init();

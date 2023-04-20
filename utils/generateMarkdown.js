@@ -1,7 +1,8 @@
+// Create badge for liscense
 function generateLiscense (liscense){
   return `![${liscense} liscense](https://img.shields.io/badge/Liscence-${liscense}-green)`
 }
-// Create a function to generate markdown for README
+// Create a layout for README
 function generateMarkdown(data) {
   return `
   # ${data.title} \n
