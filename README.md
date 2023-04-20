@@ -17,7 +17,7 @@
 
   ## Instructions 
 
-  You can go to the output folder to view your created read me doc. You will need to manually include any photos or links in the read me. There is also no table of contents provided since the scope of this read me only covers small projects. 
+  You can go to the output folder to view your created read me doc. You will need to manually include any photos or links in the read me. There is also no table of contents provided since the scope of this project only covers small apps. Those features may be added if I find this application useful in the future. 
 
   ## Liscense 
 
