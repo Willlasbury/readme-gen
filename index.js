@@ -7,7 +7,7 @@ let test = require("./utils/generateMarkdown")
 // Create an array of questions for user input
 const questions = {
   title: "What is the title of your project?",
-  description: "Describe your project",
+  description: "Describe your project.",
   install: "What are your installation instructions?",
   usageInfo: "What is you usage information?",
   contributions: "What are you contribution guidelines?",

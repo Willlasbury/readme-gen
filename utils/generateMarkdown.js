@@ -1,5 +1,5 @@
 function generateLiscense (liscense){
-  return `![${liscense} liscense](https://img.shields.io/badge/${liscense}-Liscence-green)`
+  return `![${liscense} liscense](https://img.shields.io/badge/Liscence-${liscense}-green)`
 }
 // Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -7,9 +7,14 @@ function generateMarkdown(data) {
   # ${data.title} \n
   ## Description \n
   ${data.description} \n
-  ## Installation Instructions \n
+  ## Table of Contents \n
+  -[Installation](#installation)\n
+  -[Usage](#usage) \n
+  -[Contributions](#contributions) \n
+  -[Liscense](#liscense) \n
+  ## Installation \n
   ${data.install} \n
-  ## Usage Information \n
+  ## Usage \n
   ${data.usageInfo} \n
   ## Contributions \n
   ${data.contributions} \n
