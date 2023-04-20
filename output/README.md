@@ -1,9 +1,9 @@
 
-  # fdsa 
+  # fdsa   ![MIT liscense](https://img.shields.io/badge/Liscence-MIT-green) 
 
   ## Description 
 
-  fsad 
+  fds 
 
   ## Table of Contents 
 
@@ -21,34 +21,33 @@
 
   ## Installation 
 
-  fdsa 
+  af 
 
   ## Usage 
 
-  fdsa 
+  dsaf 
 
   ## Contributions 
 
-  fdsa 
+  dsa 
 
   ## Instructions 
 
-  fdsa 
+  fds 
 
   ## Liscense 
 
-  ![MIT liscense](https://img.shields.io/badge/Liscence-MIT-green) 
-
+  This application is covered by a MIT liscence
   ## Tests 
 
-  ffdsa 
+  dsafd 
 
   ## Questions 
 
-  [](https://github.com/) 
+  [safd](https://github.com/safd) 
 
-  fasfdsa 
+  safds 
 
-  crow please 
+  fdsa 
 
   

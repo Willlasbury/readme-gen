@@ -5,7 +5,7 @@ function generateLiscense (liscense){
 // Create a layout for README
 function generateMarkdown(data) {
   return `
-  # ${data.title} \n
+  # ${data.title}   ${generateLiscense(data.liscense)} \n
   ## Description \n
   ${data.description} \n
   ## Table of Contents \n
@@ -24,7 +24,7 @@ function generateMarkdown(data) {
   ## Instructions \n
   ${data.instructions} \n
   ## Liscense \n
-  ${generateLiscense(data.liscense)} \n
+  This application is covered by ${data.liscense} liscence
   ## Tests \n
   ${data.tests} \n
   ## Questions \n
