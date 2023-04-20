@@ -1,25 +1,23 @@
 
-  # Will 
+  # Read Me Generator 
 
   ## Description 
 
-  fdsa 
+ This application takes in a series of user generated inputs and converts them
+ to a read me file. 
 
   ## Installation Instructions 
 
-  fdsa 
+  The user will need node to install packages from the package.json. Currently only inquirer 8.2.4 is required
 
   ## Usage Information 
 
-  fdsa 
+  Run the index file with node in the terminal, and provide the information when prompted. 
 
-  ## Contributions 
-
-  fdsa 
 
   ## Instructions 
 
-  fdsa 
+  You can go to the output folder to view your created read me doc. You will need to manually include any photos or links in the read me. There is also no table of contents provided since the scope of this read me only covers small projects. 
 
   ## Liscense 
 

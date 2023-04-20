@@ -56,7 +56,7 @@ function init() {
       },
     ])
     .then((response) => {
-      fs.writeFile('README.md', genMarkDown(response), (err) =>{
+      fs.writeFile('./output/README.md', genMarkDown(response), (err) =>{
         if (err){
             console.log(err);
         } else {
