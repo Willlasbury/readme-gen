@@ -28,8 +28,8 @@ function generateMarkdown(data) {
   ## Tests \n
   ${data.tests} \n
   ## Questions \n
-  [${data.github}](https://github.com/${data.github}) \n
-  ${data.email} \n
+  GitHub: [${data.github}](https://github.com/${data.github}) \n
+  Email: {data.email} \n
   ${data.contactPref} \n
   `;
 }

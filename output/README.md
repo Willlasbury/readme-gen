@@ -3,7 +3,7 @@
 
   ## Description 
 
-  fds 
+  fdsa 
 
   ## Table of Contents 
 
@@ -21,33 +21,33 @@
 
   ## Installation 
 
-  af 
+  fdsa 
 
   ## Usage 
 
-  dsaf 
+  fds 
 
   ## Contributions 
 
-  dsa 
+  af 
 
   ## Instructions 
 
-  fds 
+  dsaf 
 
   ## Liscense 
 
-  This application is covered by a MIT liscence
+  This application is covered by MIT liscence
   ## Tests 
 
-  dsafd 
+  fd 
 
   ## Questions 
 
-  [safd](https://github.com/safd) 
+  Github[safd](https://github.com/safd) 
 
   safds 
 
-  fdsa 
+  afds 
 
   
