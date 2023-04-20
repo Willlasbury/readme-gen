@@ -9,7 +9,12 @@ const questions = {
   install: "What are your installation instructions?",
   usageInfo: "What is you usage information?",
   contributions: "What are you contribution guidelines?",
-  instructions: "What are your test instructions?",
+  instructions: "What are your application's instructions?",
+  liscense: "Which liscense would you like to use?",
+  tests: "What are your test questions?",
+  github: "What is your github username?",
+  email: "What is your email?",
+  contactPref: "How would you like to be contacted?"
 };
 
 // prompt user with questions and caputre inputs
@@ -51,6 +56,26 @@ function init() {
         message: questions.liscense,
         name: "liscense",
         choices: ["MIT", "Apachi"],
+      },
+      {
+        type: "input",
+        message: questions.tests,
+        name: "tests",
+      },
+      {
+        type: "input",
+        message: questions.github,
+        name: "github",
+      },
+      {
+        type: "input",
+        message: questions.email,
+        name: "email",
+      },
+      {
+        type: "input",
+        message: questions.contactPref,
+        name: "contactPref",
       },
     ])
     .then((response) => {

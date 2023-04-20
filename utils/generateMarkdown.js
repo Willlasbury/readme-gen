@@ -13,6 +13,8 @@ function generateMarkdown(data) {
   -[Usage](#usage) \n
   -[Contributions](#contributions) \n
   -[Liscense](#liscense) \n
+  -[Tests](#tests) \n
+  -[Questions](#questions) \n
   ## Installation \n
   ${data.install} \n
   ## Usage \n
@@ -23,7 +25,14 @@ function generateMarkdown(data) {
   ${data.instructions} \n
   ## Liscense \n
   ${generateLiscense(data.liscense)} \n
+  ## Tests \n
+  ${data.tests} \n
+  ## Questions \n
+  [${data.github}](https://github.com/${data.github}) \n
+  ${data.email} \n
+  ${data.contactPref} \n
   `;
 }
+
 
 module.exports = generateMarkdown;
